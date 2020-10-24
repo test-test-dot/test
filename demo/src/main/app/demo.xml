@@ -11,5 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
         <http:listener config-ref="HTTP_Listener_Configuration" path="/test" doc:name="HTTP"/>
         <set-payload value="hello" doc:name="Set Payload"/>
         <set-payload value="I am Demo" doc:name="Set Payload"/>
+        <set-variable variableName="test" value="hello" doc:name="Variable"/>
     </flow>
 </mule>
