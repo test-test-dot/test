@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="demoFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/test" doc:name="HTTP"/>
         <set-payload value="hello" doc:name="Set Payload"/>
+        <set-payload value="I am Demo" doc:name="Set Payload"/>
     </flow>
 </mule>
